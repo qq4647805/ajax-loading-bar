@@ -6,7 +6,7 @@
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1",
     "build": "rm -rf dist &&  webpack --progress --profile --colors",
-    "c": "git add -A && git commit -am 'test update'",
+    "c": "git add -A && git commit -am 'update'",
     "p": "git push",
     "cp": "npm run c && npm run p",
     "bcp": "npm run build && npm run c && npm run p"
