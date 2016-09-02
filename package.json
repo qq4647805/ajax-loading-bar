@@ -2,7 +2,7 @@
   "name": "ajax-loading-bar",
   "version": "1.0.0",
   "description": "ajax请求数据的进度条",
-  "main": "dist/ajax-loading-bar.js",
+  "main": "dist/ajax-loading-bar.min.js",
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1",
     "build": "rm -rf dist &&  webpack --progress --profile --colors"
