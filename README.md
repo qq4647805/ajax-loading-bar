@@ -1,14 +1,11 @@
 # ajax-loading-bar
 > ajax请求数据的进度条
 
-## 安装
+
+## 修改&编译
+
 ```
 npm install
-```
-
-## 编译
-
-```
 npm run build
 ```
 
