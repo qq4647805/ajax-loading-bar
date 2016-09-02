@@ -39,6 +39,8 @@
   }
   window.XMLHttpRequest=function(...props) {
     const xhr=new XHR(...props)
-    return Object.assign(xhr, Loader);
+		xhr.onloadstart=Loader.onloadstart;
+		xhr.onloadend=Loader.onloadend;
+    return xhr;
   }
 }(XMLHttpRequest))
