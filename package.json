@@ -5,7 +5,11 @@
   "main": "dist/ajax-loading-bar.min.js",
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1",
-    "build": "rm -rf dist &&  webpack --progress --profile --colors"
+    "build": "rm -rf dist &&  webpack --progress --profile --colors",
+    "c": "git add -A && git commit -am 'test update'",
+    "p": "git push",
+    "cp": "npm run c && npm run p",
+    "bcp": "npm run build && npm run c && npm run p"
   },
   "repository": {
     "type": "git",
